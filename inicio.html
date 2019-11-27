@@ -2,15 +2,16 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilos.css">
         <title>Curso Diseño Web</title>
     </head>
     <body>
         <!-- las etiquetas rojas no estan soportadas por HTML5, utilizar CSS-->
-        <font size="10" color="red" face="arial">
-            <center>
-                <b><i><u>CURSO DISEÑO WEB</u></i></b>
-            </center>
-        </font>
+        <div id="titulo">
+            <!--font-- size="10" color="red" face="arial"-->
+            <b><i><u>CURSO DISEÑO WEB</u></i></b>
+            <!--/font-->
+        </div>
         <p>
             El diseño web es una actividad que consiste en la planificación, diseño, implementación y mantenimiento 
             de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes 
@@ -32,11 +33,11 @@
             más de difusión de su obra.
         </P>
         <br>
-        <center>
+        <!--center-->
             <img src="imagen.jpg" width="600" heigth="300" class="rounded-circle">
-        </center>
+        <!--/center-->
         <br>
-        <table border="0" align="center" width="90%" bgcolor="#dadada">
+        <table width="90%" class="tabla"><!-- border="0" align="center" bgcolor="#dadada"-->
             <tr>
                 <th>Etiqueta</th>
                 <th>Cierre</th>
@@ -51,9 +52,9 @@
             </tr>
         </table>
         <br>
-        <center>
+        <div class="enlace">
             <a href="construccion.html">Ir a construcción</a>
-        </center>
+        </div>
         
     </body>
 </html>

@@ -1,0 +1,21 @@
+.enlace{
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+    color: red;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabla{
+    margin: auto;
+    background-color: #dadada;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
